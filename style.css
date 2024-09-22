@@ -30,6 +30,31 @@
 
 /* ALL!!!!! */
 
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #460000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8a0000;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a50000;
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #8a0000 #460000;
+}
+
+
 *{
     font-family: "Cairo", sans-serif;
     font-size: 20px;
